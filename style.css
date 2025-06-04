@@ -27,3 +27,8 @@ body {
   cursor: pointer;
   transition: background 0.5s ease; /* Transição suave */
 }
+
+/* Efeito hover nos botões */
+.btn:hover {
+  background: linear-gradient(135deg, #ff6a00, #ee0979); /* Novo gradiente com ângulo */
+}
