@@ -1,0 +1,16 @@
+/* Gradiente de fundo suave no corpo da página */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #a18cd1, #fbc2eb); /* Gradiente suave */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Container centralizado */
+.container {
+  display: flex;
+  gap: 20px;
+}
