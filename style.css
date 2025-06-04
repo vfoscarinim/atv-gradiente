@@ -6,11 +6,24 @@ body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(to right, #a18cd1, #fbc2eb); /* Gradiente suave */
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Container centralizado */
 .container {
   display: flex;
   gap: 20px;
+}
+
+/* Estilização dos botões */
+.btn {
+  padding: 12px 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to right, #00c6ff, #0072ff); /* Gradiente inicial */
+  border: none;
+  border-radius: 25px; /* Bordas arredondadas */
+  cursor: pointer;
+  transition: background 0.5s ease; /* Transição suave */
 }
